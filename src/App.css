@@ -1,0 +1,62 @@
+.topNaveBar
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.navwrap nav a
+{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100px;
+}
+
+nav a:Hover
+{
+    background-color: black;
+    color: white;
+}
+
+.logobox
+{
+    width: fit-content;
+    display: flex;
+    align-content: center;
+    width: 200px;
+    height: 100px;
+    padding: 25px;
+    padding-left: 0px;
+}
+
+.navwrap
+{
+    width: fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toplinkwrap
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.comlogo
+{
+    width: 35px;
+}

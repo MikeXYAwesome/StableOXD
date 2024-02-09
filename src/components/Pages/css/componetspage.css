@@ -1,0 +1,89 @@
+
+
+.com-nav
+{
+    background-color: aqua;
+}
+
+.comMainWraper
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+
+}
+.errorWrap
+{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 250px;
+    width: 100%;
+    height: 700px;
+    font-family: 'Concert One', sans-serif;
+}
+.notFoundCom
+{
+    width: 100px;
+}
+.navTitle
+{
+  font-size: 45px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+}
+
+.componetsPage
+{
+    width: 78%;
+    min-height: 100vh;
+    border-radius: 35px;
+    background-color: #f3f3f5;
+}
+
+.topNaveBar
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.SideNav
+{
+    width: 20%;
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 0px;
+    color: white;
+}
+
+nav
+{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.pageWrpper
+{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.gridwrap
+{
+    padding: 22px;
+}
